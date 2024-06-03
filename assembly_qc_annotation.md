@@ -7,7 +7,7 @@ $HOME/SPAdes-3.15.5-Linux/bin/spades.py -t 48 --isolate -1 2023-08-15_256samples
 $HOME/SPAdes-3.15.5-Linux/bin/spades.py -t 48 --isolate -1  2023-08-15_256samples_66B.bam-1.fq -s 2023-08-15_256samples_66B.bam-2.fq -o 66B
 $HOME/SPAdes-3.15.5-Linux/bin/spades.py -t 48 --isolate -1  2023-08-15_256samples_HP1C.bam-1.fq -2 2023-08-15_256samples_HP1C.bam-2.fq -o HP1C
 $HOME/SPAdes-3.15.5-Linux/bin/spades.py -t 48 --isolate -1 2023-08-15_256samples_THA3.2.bam-1.fq -2 2023-08-15_256samples_THA3.2.bam-2.fq -o THA32
-``
+```
 
 ## Move files around
 ```
