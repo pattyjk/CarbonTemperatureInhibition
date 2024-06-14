@@ -1,0 +1,63 @@
+Region	Type	From	To	Most similar known cluster		Similarity	Isolate	Genus
+Region 1.1	NRPS	42,283	126,550				130D	Chryseobacterium
+Region 1.2	NRPS-like	213,132	256,239				130D	Chryseobacterium
+Region 3.1	terpene	114,053	135,123				130D	Chryseobacterium
+Region 3.2	lanthipeptide-class-i	275,838	299,687				130D	Chryseobacterium
+Region 5.1	NAPAA	62,065	95,985				130D	Chryseobacterium
+Region 5.2	lanthipeptide-class-i	167,293	191,494				130D	Chryseobacterium
+Region 11.1	microviridin	113,077	133,295				130D	Chryseobacterium
+Region 12.1	lanthipeptide-class-i	96,486	120,857				130D	Chryseobacterium
+Region 13.1	hglE-KS,T1PKS	1	46,955				130D	Chryseobacterium
+Region 31.1	resorcinol,arylpolyene	1	37,446	flexirubin	Polyketide	41%	130D	Chryseobacterium
+Region 36.1	arylpolyene	1	32,922	flexirubin	Polyketide	33%	130D	Chryseobacterium
+Region 38.1	RiPP-like	3,214	10,627				130D	Chryseobacterium
+Region 1.1	NRP-metallophore,NRPS	102,680	151,131	2,3-dihydroxybenzoylserine	NRP	42%	RSM3.2	Stenotrophomonas
+Region 8.1	arylpolyene	28,121	71,735	APE Vf	Other	45%	RSM3.2	Stenotrophomonas
+Region 34.1	RiPP-like	12,335	23,219				RSM3.2	Stenotrophomonas
+Region 1.1	RiPP-like	159,475	170,320	entolysin	NRP	6%	66B	Stenotrophomonas
+Region 3.1	arylpolyene	109,209	152,814	APE Vf	Other	45%	66B	Stenotrophomonas
+Region 14.1	NRP-metallophore,NRPS	44,393	92,769	2,3-dihydroxybenzoylserine	NRP	89%	66B	Stenotrophomonas
+Region 58.1	RiPP-like	12,283	18,726				66B	Stenotrophomonas
+Region 1.1	NRPS-like	269,987	313,094				THA3.2	Chryseobacterium
+Region 1.2	lanthipeptide-class-i	517,689	541,979				THA3.2	Chryseobacterium
+Region 2.1	NI-siderophore	260,691	294,248	fulvivirgamide A2/fulvivirgamide B2/fulvivirgamide B3/fulvivirgamide B4	Other	33%	THA3.2	Chryseobacterium
+Region 2.2	terpene	395,465	416,301	carotenoid	Terpene	28%	THA3.2	Chryseobacterium
+Region 4.1	hglE-KS,T1PKS,terpene	101,378	152,697				THA3.2	Chryseobacterium
+Region 6.1	resorcinol,arylpolyene	9,156	77,360	flexirubin	Polyketide	72%	THA3.2	Chryseobacterium
+Region 8.1	lanthipeptide-class-i	18,974	43,279				THA3.2	Chryseobacterium
+Region 8.2	RiPP-like	150,419	161,510				THA3.2	Chryseobacterium
+Region 10.1	lanthipeptide-class-i	62,241	87,657	pinensins	RiPP	17%	THA3.2	Chryseobacterium
+Region 15.1	microviridin	73,831	94,635				THA3.2	Chryseobacterium
+Region 1.1	butyrolactone	31,262	42,299				HP1C	Pseudomonas
+Region 3.1	betalactone	40,706	73,239				HP1C	Pseudomonas
+Region 3.2	NAGGN	134,009	148,829				HP1C	Pseudomonas
+Region 3.3	NRPS	181,716	234,612	Pf-5 pyoverdine	NRP	10%	HP1C	Pseudomonas
+Region 8.1	betalactone	68,147	96,485	fengycin	NRP	13%	HP1C	Pseudomonas
+Region 8.2	RiPP-like	137,447	148,271				HP1C	Pseudomonas
+Region 10.1	redox-cofactor	54,162	76,309	lankacidin C	NRP+Polyketide	13%	HP1C	Pseudomonas
+Region 11.1	arylpolyene	102,374	145,949	APE Vf	Other	40%	HP1C	Pseudomonas
+Region 15.1	RiPP-like	49,704	60,945				HP1C	Pseudomonas
+Region 19.1	thiopeptide	99,013	128,430	lipopolysaccharide	Saccharide:Lipopolysaccharide	5%	HP1C	Pseudomonas
+Region 28.1	ectoine	51,971	62,375	ectoine	Other	83%	HP1C	Pseudomonas
+Region 29.1	RiPP-like	66,403	77,281				HP1C	Pseudomonas
+Region 30.1	NRP-metallophore,NRPS,hydrogen-cyanide	1	81,793	pyoverdine SMX-1	NRP	35%	HP1C	Pseudomonas
+Region 34.1	NAPAA	70,028	90,274				HP1C	Pseudomonas
+Region 45.1	NRPS-like	38,472	68,834				HP1C	Pseudomonas
+Region 72.1	RiPP-like	1	7,982				HP1C	Pseudomonas
+Region 1.1	redox-cofactor	57,758	79,926	lankacidin C	NRP+Polyketide	13%	P060114-29-3-1	Pseudomonas
+Region 3.1	arylpolyene	270,962	314,575	APE Vf	Other	40%	P060114-29-3-1	Pseudomonas
+Region 4.1	ranthipeptide	11,105	32,535	Pf-5 pyoverdine	NRP	11%	P060114-29-3-1	Pseudomonas
+Region 4.2	betalactone	319,756	343,022	fengycin	NRP	13%	P060114-29-3-1	Pseudomonas
+Region 5.1	NI-siderophore	201,034	230,887				P060114-29-3-1	Pseudomonas
+Region 5.2	RiPP-like	249,595	261,793				P060114-29-3-1	Pseudomonas
+Region 5.3	NRPS	261,951	324,151	chitinimide B/chitinimide F/chitinimide D/chitinimide A/chitinimide C/chitinimide E/chitinimide G	NRP+Polyketide	1	P060114-29-3-1	Pseudomonas
+Region 6.1	NRPS	15,188	68,189	Pf-5 pyoverdine	NRP	0	P060114-29-3-1	Pseudomonas
+Region 6.2	NAGGN	209,882	224,655				P060114-29-3-1	Pseudomonas
+Region 8.1	RiPP-like	206,224	217,120				P060114-29-3-1	Pseudomonas
+Region 9.1	hydrogen-cyanide	179,638	192,559	hydrogen cyanide	Other	100%	P060114-29-3-1	Pseudomonas
+Region 10.1	RiPP-like	115,066	125,905				P060114-29-3-1	Pseudomonas
+Region 17.1	NRPS-like	1	31,622	fragin	NRP	37%	P060114-29-3-1	Pseudomonas
+Region 19.1	NRP-metallophore,NRPS	37,191	124,370	Pf-5 pyoverdine	NRP	19%	P060114-29-3-1	Pseudomonas
+Region 24.1	NRPS	52,442	98,714	kolossin	NRP	100%	P060114-29-3-1	Pseudomonas
+Region 27.1	NRPS	6,099	83,609	lokisin	NRP	64%	P060114-29-3-1	Pseudomonas
+Region 32.1	RiPP-like	40,442	51,191				P060114-29-3-1	Pseudomonas
