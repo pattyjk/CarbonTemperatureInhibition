@@ -1,0 +1,49 @@
+SampleID	T-Test	Bd_Strain
+Acetate	0.347412765	Jel197
+Acetate	0.221846915	Jel423
+Arabinose	0.01056421	Jel197
+Arabinose	0.049987144	Jel423
+Citrate	0.342727513	Jel197
+Citrate	0.080474982	Jel423
+Dextrose	0.346540295	Jel197
+Dextrose	0.019879331	Jel423
+Fructose	0.06248093	Jel197
+Fructose	0.035293703	Jel423
+Galactose	0.1324352	Jel197
+Galactose	0.027132219	Jel423
+Heart infusion	0.224218975	Jel197
+Heart infusion	0.048218348	Jel423
+Heat killed zoospores	2.54715E-06	Jel197
+Heat killed zoospores	5.57822E-07	Jel423
+Lactose	0.128106651	Jel197
+Lactose	0.010289284	Jel423
+LB	0.084467669	Jel197
+LB	0.033532863	Jel423
+M9	0.204442402	Jel197
+M9	0.108466839	Jel423
+Malt extract	0.14247323	Jel197
+Malt extract	0.40501037	Jel423
+Mannitol	0.093042968	Jel197
+Mannitol	0.289595735	Jel423
+Mannose	0.434676028	Jel197
+Mannose	0.080474982	Jel423
+Negative	8.73998E-06	Jel197
+Negative	5.27072E-07	Jel423
+Nutrient depleted	9.9123E-05	Jel197
+Nutrient depleted	1.79707E-06	Jel423
+Peptone	0.239617885	Jel197
+Peptone	0.041383546	Jel423
+Positive	0.5	Jel197
+Positive	0.5	Jel423
+Pyruvate	0.196380418	Jel197
+Pyruvate	0.026121733	Jel423
+R2A	0.019557575	Jel197
+R2A	0.342727513	Jel423
+Succinate	0.141519462	Jel197
+Succinate	0.289595735	Jel423
+Thiamine	0.472213495	Jel197
+Thiamine	0.017552586	Jel423
+Xylose	0.224424111	Jel197
+Xylose	0.224424111	Jel423
+Yeast extract	0.458633759	Jel197
+Yeast extract	0.01168445	Jel423
