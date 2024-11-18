@@ -4,17 +4,21 @@ library(plyr)
 library(ggpubr)
 
 #read in antismash data
-dat<-read.delim('CarbonTemperatureInhibition/isolate_antismash.txt', header=T)
+dat<-read.delim('Documents/GitHub/CarbonTemperatureInhibition/isolate_antismash.txt', header=T)
 
 #summarize
 anti_sum<-ddply(dat, c("Isolate", "Genus", 'Type'), summarize, no_genes=length(Type))
+
+#make best pal
+pal<-c("#771155", "#CC99BB", "#114477", "#4477AA", "#117777", "#44AAAA", "#77CCCC", "#117744", "#44AA77", "#88CCAA", "#777711", "#AAAA44", "#DDDD77", "#774411", "#AA7744", "#DDAA77", "#771122", "#AA4455", "#DD7788","#41AB5D", "#252525", "#525252", "#737373", "#969696")
 
 #plot it
 ggplot(anti_sum, aes(Isolate, no_genes, fill=Type))+
   geom_bar(stat='identity')+
   facet_wrap(~Genus, scales='free_x')+
-  scale_fill_manual(values = c('#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000'))+
+  scale_fill_manual(values = pal)+
   ylab("Number of BSG")+
   xlab("")+
-  theme_bw()
+  theme_bw()+
+  scale_y_continuous(expand = c(0,0))
 
