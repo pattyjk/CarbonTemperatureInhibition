@@ -4,7 +4,7 @@ library(plyr)
 library(ggpubr)
 
 #read in antismash data
-dat<-read.delim('Documents/GitHub/CarbonTemperatureInhibition/isolate_antismash.txt', header=T)
+dat<-read.delim('~/Documents/GitHub/CarbonTemperatureInhibition/isolate_antismash.txt', header=T)
 
 #summarize
 anti_sum<-ddply(dat, c("Isolate", "Genus", 'Type'), summarize, no_genes=length(Type))
@@ -20,5 +20,6 @@ ggplot(anti_sum, aes(Isolate, no_genes, fill=Type))+
   ylab("Number of BSG")+
   xlab("")+
   theme_bw()+
+  guides(fill = guide_legend(ncol = 1))+
   scale_y_continuous(expand = c(0,0))
 
