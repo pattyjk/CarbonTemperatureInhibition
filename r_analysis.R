@@ -3,8 +3,31 @@ library(ggplot2)
 library(ggpubr)
 library(dplyr)
 
+
+
 #read in Bd data
 bd_data<-read.delim('~/Documents/GitHub/CarbonTemperatureInhibition/bd_data', header = T)
+
+#plot inhibition vs MW for each isolate
+ggplot(bd_data[-which(bd_data$Type=='Complex'),], aes(as.numeric(Mwgmol), Per_inhib, color=Genus))+
+  facet_wrap(~Strain)+
+  geom_point()+
+  geom_smooth(method='lm')+
+  theme_bw()+
+  stat_cor(method='spearman', cor.coef.name='rho')+
+  scale_color_manual(values=c('black', 'grey', 'orange'))+
+  ylab("Percent Bd inhibition")+
+  xlab("Molecular weight (g/mol)")
+  
+ggplot(bd_data, aes(Type, Per_inhib, color=Genus))+
+  geom_boxplot()+
+  facet_wrap(~Strain)+
+  theme_bw()+
+  scale_color_manual(values=c('black', 'grey', 'orange'))+
+  ylab("Percent Bd inhibition")+
+  xlab("")
+
+
 
 #plot temperature range for each isolate
 ggplot(bd_data, aes(Temp, OD600, color=Genus))+
@@ -15,6 +38,14 @@ ggplot(bd_data, aes(Temp, OD600, color=Genus))+
   geom_smooth()+
   ylab("OD600")+
   xlab('Temperature')
+
+bd_split<-split(bd_data, bd_data$Strain)
+
+ggplot(bd_split$Panama13O, aes(Temp, Per_inhib))+
+  geom_point()+
+  facet_wrap(~Carbon_source)+
+  geom_smooth()
+
 
 #calculate p-values between Per_inhib and temperature
 temp_inhib  <- bd_data %>%
@@ -446,7 +477,7 @@ results_list <- df %>%
 curves_df <- bind_rows(lapply(results_list, `[[`, "curve"))
 summaries_df <- bind_rows(lapply(results_list, `[[`, "summary"))
 
-# ✅ Plot Brière curves using ggplot2
+#Plot Brière curves using ggplot2
 ggplot(curves_df, aes(x = Temp, y = Predicted_OD600, color = Strain)) +
   geom_line(size = 1) +
   labs(
